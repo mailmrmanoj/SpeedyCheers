@@ -1,6 +1,6 @@
  # Speedy Cheers Architecture Design:
 
-![Alt](Speedy Cheers System Design)
+![Diagram](Speedy Cheers System Design)
  
  ## User App Features :
 
