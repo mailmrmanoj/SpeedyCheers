@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-30T08:53:33.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="A6EdjjfeS8k3zUE_qk2C" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-30T09:06:34.407Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="y35SLdfGnFVtqJPJbXv9" version="14.2.9" type="github">
   <diagram name="Page-1" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
@@ -260,6 +260,20 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1050" y="132" as="sourcePoint" />
             <mxPoint x="1100" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5qTLImoRo7K4ohm9LM2-178" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.922;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Z5qTLImoRo7K4ohm9LM2-152">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="550" as="sourcePoint" />
+            <mxPoint x="1100" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z5qTLImoRo7K4ohm9LM2-179" value="Payment" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="553" width="90" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5qTLImoRo7K4ohm9LM2-180" value="" style="dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.payment;part=1;" vertex="1" parent="Z5qTLImoRo7K4ohm9LM2-179">
+          <mxGeometry x="0.5" width="50" height="40" relative="1" as="geometry">
+            <mxPoint x="-25" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
