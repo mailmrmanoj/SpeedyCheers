@@ -1,4 +1,4 @@
-# Speedy Cheers Architecture Design:
+ # Speedy Cheers Architecture Design:
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
@@ -25,3 +25,23 @@
  - Sends the current GPS location of user along with user unique key/identifier to a Centralised (zone specific) data centre.
  - Refresh in 10 secs to get the updated location and store in DB
  - High Availability, high throughput, low latency
+
+
+ 
+ ## SpeedyCheers Features :
+
+ ### Technical:
+ - SPA 
+ - Cheer login
+ - Profile creation
+ - Integration of Google Map API’s
+ - Option to view the order placed via user
+
+ ### Functional: 
+ - Nearest cheer gets notified when a user request a SpeedyCheer
+ - While accepting a booking a Speedy Cheer(s needs to know what activity user is requesting and accept/reject
+ - If rejected it should be notified to the user and restart the process
+ - Once accepted ETA is sent to the user
+ - Upon Arrival user and Speedy cheer authenticates via OTP and triggers calclateSpeedyCheerPrice()function
+ - Amount gets calculated for each SpeedyCheer  with base price $10 and incremented in every 5 minutes 
+ - Once user stops the service via User app the total amount calculated from above function is sent to user for  payment
