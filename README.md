@@ -1,7 +1,6 @@
  # Speedy Cheers Architecture Design:
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
+![Diagram](Speedy Cheers System Design)
  
  ## User App Features :
 
