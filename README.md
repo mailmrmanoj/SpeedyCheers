@@ -1,6 +1,6 @@
  # Speedy Cheers Architecture Design:
 
-![Diagram](Speedy Cheers System Design)
+![Diagram](SpeedyCheersSystemDesign.png)
  
  ## User App Features :
 
